@@ -1,0 +1,40 @@
+PAQUETE LANDING BUENOS AYRES DE CURUZU
+=======================================
+
+QUE TRAE ESTE ZIP
+- index.html: web actualizada (amenities, camaras 24/7, hero con el frente,
+  Depto 1 con 10 fotos, Depto 2 con 10 fotos, LOGO en nav y footer).
+- images/: 21 fotos + 2 logos. Completo.
+
+NOVEDAD EN ESTA VERSION: LOGO
+- Nav (arriba): logo a color, sin texto al lado (el logo ya trae el nombre).
+  Archivo: images/logo.png
+- Footer (abajo, fondo azul): logo en blanco, centrado.
+  Archivo: images/logo-blanco.png
+
+COMO DEPLOYAR
+1. Tomá tu carpeta del proyecto (con index.html e images/).
+2. Reemplazá el index.html viejo por el de este zip.
+3. Copiá TODAS las imagenes de este images/ dentro de tu images/
+   (incluye logo.png y logo-blanco.png nuevos).
+4. Subí/arrastrá la carpeta a Vercel.
+
+ORDEN CARRUSEL DEPTO 1 (10)
+1 dormitorio matrimonial / 2 dormitorio matrimonial (angulo) /
+3 dormitorio dos camas / 4 comedor con luz natural / 5 living con TV /
+6 comedor con cocina al fondo / 7 cocina / 8 baño con ducha /
+9 baño simil piedra / 10 entrada con camara
+
+ORDEN CARRUSEL DEPTO 2 (10)
+1 dormitorio matrimonial / 2 hall interior (mira al comedor) /
+3 hall de entrada (HOME) / 4 estar con sillones-cama / 5 comedor con TV /
+6 cocina / 7 cocina (otro angulo) / 8 baño con inodoro y bidet /
+9 baño simil piedra / 10 amenities de marca
+
+FOTOS VIEJAS QUE PODES BORRAR
+- images/d1-comedor.jpg / images/d2-comedor.jpg / images/d2-alacena.jpg
+
+RECORDATORIO
+- Cuando confirmes que se ve bien, subí este index.html al proyecto.
+- Mirá el hero en celular y compu por el contraste del texto.
+- Mirá el logo del nav en celular (que no quede muy grande).
