@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buenos Ayres de Curuzú · Departamentos en Curuzú Cuatiá</title>
+<meta name="description" content="Departamentos temporarios equipados en Curuzú Cuatiá, a 4 cuadras del Sanatorio San Roque y a 5 del centro. Ideal para visita familiar, tratamientos médicos o viajes en tránsito.">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Buenos Ayres de Curuzú · Alquileres temporarios">
+<meta property="og:description" content="Departamentos equipados a 4 cuadras del Sanatorio San Roque. Curuzú Cuatiá, Corrientes.">
+<meta property="og:image" content="images/hero.jpg">
+<meta property="og:url" content="https://buenosayresdecuruzu.com.ar">
+<meta property="og:locale" content="es_AR">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "Buenos Ayres de Curuzú",
+  "image": "images/hero.jpg",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Sarratea 416",
+    "addressLocality": "Curuzú Cuatiá",
+    "addressRegion": "Corrientes",
+    "addressCountry": "AR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -29.797334,
+    "longitude": -58.049551
+  },
+  "telephone": "+54 11 5119-1329",
+  "url": "https://buenosayresdecuruzu.com.ar",
+  "amenityFeature": [
+    {"@type": "LocationFeatureSpecification", "name": "WiFi"},
+    {"@type": "LocationFeatureSpecification", "name": "Aire acondicionado"},
+    {"@type": "LocationFeatureSpecification", "name": "Cocina equipada"},
+    {"@type": "LocationFeatureSpecification", "name": "TV"}
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* =========================================================================
+   TOKENS
+   ========================================================================= */
+:root {
+  --azul: #01346B;
+  --azul-oscuro: #02264F;
+  --azul-claro: #0A4A8F;
+  --cyan: #1CD1E1;
+  --verde: #6BC32E;
+  --verde-hover: #5BA820;
+  --crema: #F8F6F2;
+  --crema-2: #F0EDE6;
+  --blanco: #FFFFFF;
+  --tinta: #0F1922;
+  --tinta-media: #4A5568;
+  --gris-linea: #E4E1DA;
+  --sombra: 0 4px 24px rgba(1,52,107,.08);
+  --sombra-md: 0 12px 40px rgba(1,52,107,.16);
+  --radius: 14px;
+  --radius-sm: 8px;
+  --ease: cubic-bezier(.2,.8,.2,1);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--tinta);
+  background: var(--blanco);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; cursor: pointer; border: none; background: none; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Tipografía display */
+.display {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1.05;
+}
+.display .italic { font-style: italic; }
+
+/* =========================================================================
+   NAV
+   ========================================================================= */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 12px 24px;
+  background: rgba(255,255,255,.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(1,52,107,.08);
+  transition: all .3s var(--ease);
+}
+.nav__inner {
+  max-width: 1200px; margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px;
+}
+.nav__logo {
+  display: flex; align-items: center; gap: 10px;
+  font-family: 'Instrument Serif', serif;
+  font-size: 20px;
+  color: var(--azul);
+  min-width: 0;
+}
+.nav__logo img {
+  width: 40px; height: 40px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.nav__logo span { font-style: italic; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.nav__cta {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 10px 18px;
+  background: var(--verde);
+  color: var(--blanco);
+  border-radius: 999px;
+  font-size: 14px; font-weight: 600;
+  transition: transform .2s var(--ease), background .2s var(--ease);
+}
+.nav__cta:hover { background: var(--verde-hover); transform: translateY(-1px); }
+.nav__cta svg { width: 16px; height: 16px; }
+
+@media (max-width: 520px) {
+  .nav__logo span { display: none; }
+  .nav__cta { padding: 9px 14px; font-size: 13px; }
+}
+
+/* =========================================================================
+   HERO
+   ========================================================================= */
+.hero {
+  position: relative;
+  min-height: 80vh;
+  display: flex; align-items: center;
+  color: var(--blanco);
+  overflow: hidden;
+  padding-top: 72px;
+}
+@media (min-width: 900px) {
+  .hero { min-height: 90vh; }
+}
+.hero__bg {
+  position: absolute; inset: 0;
+  z-index: 1;
+}
+.hero__bg img {
+  width: 100%; height: 100%; object-fit: cover;
+}
+.hero__bg::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg,
+    rgba(1,52,107,.4) 0%,
+    rgba(1,52,107,.65) 60%,
+    rgba(1,52,107,.85) 100%);
+}
+.hero__content {
+  position: relative; z-index: 2;
+  width: 100%;
+  padding: 40px 24px 60px;
+  max-width: 1200px; margin: 0 auto;
+}
+
+/* Stats bar como sección separada, más limpia y responsive */
+.stats-bar {
+  background: var(--crema);
+  padding: 32px 0;
+  border-bottom: 1px solid var(--gris-linea);
+}
+.stats-bar__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.stat {
+  text-align: center;
+  padding: 8px 4px;
+}
+.stat__num {
+  font-family: 'Instrument Serif', serif;
+  font-size: clamp(24px, 3vw, 34px);
+  color: var(--azul);
+  line-height: 1;
+  font-weight: 400;
+}
+.stat__star { color: #F5A623; margin-left: 2px; }
+.stat__unit { font-size: .55em; color: var(--tinta-media); }
+.stat__label {
+  font-size: 11px;
+  color: var(--tinta-media);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-top: 8px;
+  line-height: 1.3;
+}
+@media (max-width: 720px) {
+  .stats-bar__grid { grid-template-columns: repeat(2, 1fr); gap: 24px 16px; }
+  .stat { border-right: none; }
+}
+.hero__eyebrow {
+  display: inline-block;
+  padding: 6px 14px;
+  border: 1px solid rgba(255,255,255,.35);
+  border-radius: 999px;
+  font-size: 12px; letter-spacing: .12em; text-transform: uppercase;
+  margin-bottom: 24px;
+  backdrop-filter: blur(6px);
+}
+.hero__title {
+  font-size: clamp(44px, 9vw, 88px);
+  line-height: .98;
+  margin-bottom: 20px;
+  max-width: 900px;
+}
+.hero__title .accent {
+  font-style: italic;
+  color: var(--cyan);
+}
+.hero__sub {
+  font-size: clamp(16px, 2vw, 20px);
+  max-width: 560px;
+  color: rgba(255,255,255,.9);
+  margin-bottom: 36px;
+}
+.hero__ctas {
+  display: flex; flex-wrap: wrap; gap: 12px;
+}
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  padding: 16px 28px;
+  border-radius: 999px;
+  font-weight: 600; font-size: 15px;
+  transition: transform .2s var(--ease), background .2s var(--ease), box-shadow .2s var(--ease);
+}
+.btn svg { width: 18px; height: 18px; }
+.btn--primary {
+  background: var(--verde); color: var(--blanco);
+  box-shadow: 0 8px 24px rgba(107,195,46,.35);
+}
+.btn--primary:hover { background: var(--verde-hover); transform: translateY(-2px); box-shadow: 0 12px 32px rgba(107,195,46,.45); }
+.btn--ghost {
+  background: rgba(255,255,255,.14); color: var(--blanco);
+  border: 1px solid rgba(255,255,255,.35);
+  backdrop-filter: blur(8px);
+}
+.btn--ghost:hover { background: rgba(255,255,255,.24); transform: translateY(-2px); }
+
+.hero__stats {
+  display: none;
+}
+.hero__stats-inner { display: none; }
+
+/* =========================================================================
+   SECCIONES generales
+   ========================================================================= */
+section { padding: 80px 0; }
+@media (max-width: 640px) { section { padding: 56px 0; } }
+
+.section-header {
+  margin-bottom: 48px;
+  max-width: 720px;
+}
+.section-eyebrow {
+  display: inline-block;
+  font-size: 12px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--azul);
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 32px;
+}
+.section-eyebrow::before {
+  content: ''; position: absolute; left: 0; top: 50%;
+  width: 20px; height: 1px; background: var(--azul); transform: translateY(-50%);
+}
+.section-title {
+  font-size: clamp(32px, 5vw, 52px);
+  color: var(--azul);
+  margin-bottom: 20px;
+}
+.section-sub {
+  font-size: 17px;
+  color: var(--tinta-media);
+  max-width: 560px;
+}
+
+/* =========================================================================
+   PARA QUÉ VENÍS
+   ========================================================================= */
+.segments {
+  background: var(--crema);
+}
+.segments__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+.segment-card {
+  background: var(--blanco);
+  border-radius: var(--radius);
+  padding: 32px 28px;
+  border: 1px solid var(--gris-linea);
+  transition: all .3s var(--ease);
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  display: flex; flex-direction: column;
+  min-height: 320px;
+}
+.segment-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--sombra-md);
+  border-color: var(--cyan);
+}
+.segment-card__icon {
+  width: 48px; height: 48px;
+  border-radius: 12px;
+  background: var(--azul);
+  color: var(--cyan);
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 20px;
+}
+.segment-card__icon svg { width: 24px; height: 24px; }
+.segment-card__title {
+  font-family: 'Instrument Serif', serif;
+  font-size: 26px;
+  color: var(--azul);
+  margin-bottom: 12px;
+  line-height: 1.15;
+}
+.segment-card__desc {
+  color: var(--tinta-media);
+  font-size: 15px;
+  flex: 1;
+  margin-bottom: 20px;
+}
+.segment-card__link {
+  color: var(--azul);
+  font-weight: 600; font-size: 14px;
+  display: inline-flex; align-items: center; gap: 6px;
+  transition: gap .2s var(--ease);
+}
+.segment-card__link svg {
+  width: 16px; height: 16px;
+  flex: 0 0 16px;
+}
+.segment-card:hover .segment-card__link { gap: 10px; }
+
+/* =========================================================================
+   DEPARTAMENTOS
+   ========================================================================= */
+.deptos {
+  background: var(--blanco);
+}
+.deptos__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+}
+.depto {
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--crema);
+  border: 1px solid var(--gris-linea);
+  display: flex; flex-direction: column;
+}
+.depto__carousel {
+  position: relative;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  background: var(--azul-oscuro);
+}
+.depto__slides {
+  display: flex;
+  transition: transform .5s var(--ease);
+  height: 100%;
+}
+.depto__slide {
+  flex: 0 0 100%;
+  height: 100%;
+}
+.depto__slide img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.depto__nav {
+  position: absolute;
+  top: 50%; transform: translateY(-50%);
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.9);
+  color: var(--azul);
+  display: flex; align-items: center; justify-content: center;
+  transition: background .2s var(--ease);
+  z-index: 2;
+}
+.depto__nav:hover { background: var(--blanco); }
+.depto__nav--prev { left: 12px; }
+.depto__nav--next { right: 12px; }
+.depto__nav svg { width: 18px; height: 18px; }
+.depto__dots {
+  position: absolute; bottom: 12px; left: 0; right: 0;
+  display: flex; justify-content: center; gap: 6px;
+  z-index: 2;
+}
+.depto__dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.5);
+  transition: all .2s var(--ease);
+}
+.depto__dot.active {
+  background: var(--blanco);
+  width: 24px;
+  border-radius: 4px;
+}
+.depto__info {
+  padding: 28px;
+  flex: 1;
+  display: flex; flex-direction: column;
+}
+.depto__badge {
+  display: inline-block; align-self: flex-start;
+  padding: 4px 12px;
+  background: var(--azul);
+  color: var(--cyan);
+  border-radius: 999px;
+  font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.depto__title {
+  font-family: 'Instrument Serif', serif;
+  font-size: 28px;
+  color: var(--azul);
+  margin-bottom: 8px;
+  line-height: 1.15;
+}
+.depto__price {
+  font-size: 15px; color: var(--tinta-media);
+  margin-bottom: 16px;
+}
+.depto__price strong {
+  color: var(--azul); font-weight: 700; font-size: 17px;
+}
+.depto__feats {
+  display: flex; flex-wrap: wrap; gap: 8px;
+  margin-bottom: 20px;
+}
+.depto__feat {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 12px;
+  background: var(--blanco);
+  border: 1px solid var(--gris-linea);
+  border-radius: 999px;
+  font-size: 13px;
+  color: var(--tinta-media);
+}
+.depto__feat svg { width: 14px; height: 14px; color: var(--azul); }
+.depto__cta {
+  margin-top: auto;
+  padding: 14px 24px;
+  background: var(--azul);
+  color: var(--blanco);
+  border-radius: 999px;
+  font-weight: 600; font-size: 14px;
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  transition: background .2s var(--ease), transform .2s var(--ease);
+  text-align: center;
+}
+.depto__cta:hover { background: var(--azul-oscuro); transform: translateY(-2px); }
+.depto__cta svg { width: 16px; height: 16px; }
+
+.deptos__note {
+  margin-top: 32px;
+  padding: 20px 24px;
+  background: var(--crema);
+  border-left: 3px solid var(--cyan);
+  border-radius: 4px;
+  font-size: 14px;
+  color: var(--tinta-media);
+}
+.deptos__note strong { color: var(--azul); }
+
+/* =========================================================================
+   UBICACIÓN (signature block)
+   ========================================================================= */
+.location {
+  background: var(--azul);
+  color: var(--blanco);
+  position: relative;
+  overflow: hidden;
+}
+.location::before {
+  content: '';
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(28,209,225,.08) 0%, transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(107,195,46,.06) 0%, transparent 40%);
+  pointer-events: none;
+}
+.location .section-title,
+.location .section-eyebrow { color: var(--blanco); }
+.location .section-eyebrow::before { background: var(--cyan); }
+.location .section-eyebrow { color: var(--cyan); }
+.location .section-sub { color: rgba(255,255,255,.75); }
+
+.location__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  position: relative;
+  z-index: 1;
+}
+@media (min-width: 900px) {
+  .location__grid { grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+}
+
+.location__list {
+  list-style: none;
+}
+.location__item {
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(255,255,255,.12);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 16px;
+  align-items: baseline;
+}
+.location__item:last-child { border-bottom: none; }
+.location__name {
+  font-family: 'Instrument Serif', serif;
+  font-size: clamp(22px, 3vw, 32px);
+  line-height: 1.1;
+}
+.location__name .italic {
+  font-style: italic; color: var(--cyan);
+  display: block; font-size: .7em; margin-top: 4px;
+}
+.location__dist {
+  text-align: right;
+  font-family: 'Instrument Serif', serif;
+  font-size: clamp(28px, 4vw, 44px);
+  color: var(--cyan);
+  line-height: 1;
+}
+.location__dist small {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.6);
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+.location__map {
+  border-radius: var(--radius);
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  border: 1px solid rgba(255,255,255,.15);
+  background: var(--azul-oscuro);
+}
+.location__map iframe {
+  width: 100%; height: 100%;
+  border: none;
+}
+
+/* =========================================================================
+   RESEÑAS
+   ========================================================================= */
+.resenas {
+  background: var(--crema);
+}
+.resenas__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+.resena {
+  background: var(--blanco);
+  border-radius: var(--radius);
+  padding: 32px 28px;
+  border: 1px solid var(--gris-linea);
+  display: flex; flex-direction: column;
+}
+.resena__stars {
+  color: #F5A623;
+  font-size: 18px;
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+}
+.resena__text {
+  font-family: 'Instrument Serif', serif;
+  font-size: 22px;
+  line-height: 1.35;
+  color: var(--tinta);
+  margin-bottom: 24px;
+  flex: 1;
+}
+.resena__author {
+  display: flex; align-items: center; gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--gris-linea);
+}
+.resena__avatar {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: var(--azul);
+  color: var(--cyan);
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 15px;
+}
+.resena__name {
+  font-weight: 600; font-size: 14px; color: var(--tinta);
+}
+.resena__meta {
+  font-size: 12px; color: var(--tinta-media);
+}
+.resenas__more {
+  text-align: center; margin-top: 40px;
+}
+.resenas__more a {
+  color: var(--azul); font-weight: 600; font-size: 15px;
+  display: inline-flex; align-items: center; gap: 8px;
+  border-bottom: 1px solid var(--azul);
+  padding-bottom: 2px;
+}
+
+/* =========================================================================
+   FAQs
+   ========================================================================= */
+.faqs {
+  background: var(--blanco);
+}
+.faqs__list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.faq {
+  border-bottom: 1px solid var(--gris-linea);
+}
+.faq__q {
+  width: 100%;
+  padding: 24px 40px 24px 0;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px; font-weight: 600;
+  color: var(--azul);
+  position: relative;
+  transition: color .2s var(--ease);
+}
+.faq__q:hover { color: var(--azul-claro); }
+.faq__q::after {
+  content: '+';
+  position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+  font-size: 24px; font-weight: 300;
+  color: var(--azul);
+  transition: transform .3s var(--ease);
+}
+.faq.open .faq__q::after { transform: translateY(-50%) rotate(45deg); }
+.faq__a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .35s var(--ease);
+}
+.faq__a-inner {
+  padding: 0 40px 24px 0;
+  color: var(--tinta-media);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+/* =========================================================================
+   CTA FINAL
+   ========================================================================= */
+.cta-final {
+  background: var(--azul);
+  color: var(--blanco);
+  text-align: center;
+}
+.cta-final__title {
+  font-family: 'Instrument Serif', serif;
+  font-size: clamp(36px, 6vw, 60px);
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+.cta-final__title .italic { font-style: italic; color: var(--cyan); }
+.cta-final__sub {
+  font-size: 17px;
+  color: rgba(255,255,255,.75);
+  max-width: 500px;
+  margin: 0 auto 36px;
+}
+.cta-final__ctas {
+  display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;
+}
+.cta-final__contact {
+  margin-top: 40px;
+  display: flex; justify-content: center; gap: 32px; flex-wrap: wrap;
+  font-size: 14px; color: rgba(255,255,255,.7);
+}
+.cta-final__contact a { display: inline-flex; align-items: center; gap: 8px; }
+.cta-final__contact svg { width: 16px; height: 16px; color: var(--cyan); }
+
+/* =========================================================================
+   FOOTER
+   ========================================================================= */
+.footer {
+  background: var(--azul-oscuro);
+  color: rgba(255,255,255,.7);
+  padding: 32px 0;
+  font-size: 13px;
+}
+.footer__inner {
+  max-width: 1200px; margin: 0 auto; padding: 0 24px;
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 16px; flex-wrap: wrap;
+}
+.footer__links {
+  display: flex; gap: 20px;
+}
+.footer__links a { transition: color .2s; }
+.footer__links a:hover { color: var(--cyan); }
+
+/* =========================================================================
+   WhatsApp flotante
+   ========================================================================= */
+.wa-float {
+  position: fixed;
+  bottom: 20px; right: 20px;
+  width: 60px; height: 60px;
+  border-radius: 50%;
+  background: var(--verde);
+  color: var(--blanco);
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 8px 24px rgba(107,195,46,.5);
+  z-index: 90;
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease);
+  animation: pulse 2.5s ease-in-out infinite;
+}
+.wa-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 32px rgba(107,195,46,.65);
+}
+.wa-float svg { width: 30px; height: 30px; }
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 8px 24px rgba(107,195,46,.5), 0 0 0 0 rgba(107,195,46,.4); }
+  50% { box-shadow: 0 8px 24px rgba(107,195,46,.5), 0 0 0 16px rgba(107,195,46,0); }
+}
+
+/* =========================================================================
+   MODAL (pop-up de segmentos)
+   ========================================================================= */
+.modal {
+  position: fixed; inset: 0;
+  background: rgba(1,52,107,.75);
+  backdrop-filter: blur(6px);
+  display: none;
+  align-items: center; justify-content: center;
+  z-index: 200;
+  padding: 20px;
+  animation: fadeIn .25s var(--ease);
+}
+.modal.open { display: flex; }
+.modal__box {
+  background: var(--blanco);
+  border-radius: var(--radius);
+  max-width: 600px; width: 100%;
+  max-height: 90vh; overflow-y: auto;
+  padding: 40px 32px;
+  position: relative;
+  animation: slideUp .3s var(--ease);
+}
+.modal__close {
+  position: absolute; top: 16px; right: 16px;
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: var(--crema);
+  color: var(--azul);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px;
+  transition: background .2s var(--ease);
+}
+.modal__close:hover { background: var(--gris-linea); }
+.modal__icon {
+  width: 56px; height: 56px;
+  border-radius: 12px;
+  background: var(--azul);
+  color: var(--cyan);
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 20px;
+}
+.modal__icon svg { width: 28px; height: 28px; }
+.modal__title {
+  font-family: 'Instrument Serif', serif;
+  font-size: 32px;
+  color: var(--azul);
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+.modal__body {
+  color: var(--tinta-media);
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+.modal__body p { margin-bottom: 12px; }
+.modal__list {
+  list-style: none;
+  margin-bottom: 24px;
+}
+.modal__list li {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--gris-linea);
+  font-size: 14px; color: var(--tinta);
+}
+.modal__list li:last-child { border-bottom: none; }
+.modal__list li::before {
+  content: '';
+  flex: 0 0 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--cyan);
+  margin-top: 8px;
+}
+.modal__cta {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 14px 24px;
+  background: var(--verde);
+  color: var(--blanco);
+  border-radius: 999px;
+  font-weight: 600; font-size: 14px;
+  transition: background .2s var(--ease);
+}
+.modal__cta:hover { background: var(--verde-hover); }
+.modal__cta svg { width: 16px; height: 16px; }
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+/* =========================================================================
+   Reduce motion
+   ========================================================================= */
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  html { scroll-behavior: auto; }
+}
+
+/* Utility */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+</style>
+</head>
+<body>
+
+<!-- ============================================================ NAV -->
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="#" class="nav__logo">
+      <img src="images/logo.png" alt="Buenos Ayres de Curuzú">
+      <span>Buenos Ayres <em>de Curuzú</em></span>
+    </a>
+    <a href="https://wa.me/5491151191329?text=Hola!%20Quer%C3%ADa%20consultar%20por%20una%20estad%C3%ADa%20en%20Buenos%20Ayres%20de%20Curuz%C3%BA" class="nav__cta" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      Consultá
+    </a>
+  </div>
+</nav>
+
+<!-- ============================================================ HERO -->
+<header class="hero" id="hero">
+  <div class="hero__bg">
+    <img src="images/hero.jpg" alt="Cocina equipada del departamento" fetchpriority="high">
+  </div>
+  <div class="hero__content">
+    <span class="hero__eyebrow">Curuzú Cuatiá · Corrientes</span>
+    <h1 class="hero__title display">
+      Tu lugar<br>
+      <span class="accent">en Curuzú Cuatiá</span>
+    </h1>
+    <p class="hero__sub">
+      Departamentos completamente equipados a 5 cuadras del centro de la ciudad y a 4 del Sanatorio San Roque. Un lugar tranquilo para descansar, con la atención cálida que buscás.
+    </p>
+    <div class="hero__ctas">
+      <a href="https://wa.me/5491151191329?text=Hola!%20Quer%C3%ADa%20consultar%20por%20una%20estad%C3%ADa%20en%20Buenos%20Ayres%20de%20Curuz%C3%BA" class="btn btn--primary" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        Consultá disponibilidad
+      </a>
+      <a href="https://www.booking.com/hotel/ar/buenos-ayres-de-curuzu.es.html" class="btn btn--ghost" target="_blank" rel="noopener">
+        Ver en Booking
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- ============================================================ STATS BAR -->
+<section class="stats-bar">
+  <div class="container">
+    <div class="stats-bar__grid">
+      <div class="stat">
+        <div class="stat__num">4.9<span class="stat__star">★</span></div>
+        <div class="stat__label">Google Reviews</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">9.5<span class="stat__unit">/10</span></div>
+        <div class="stat__label">Booking · Excepcional</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">4 cuadras</div>
+        <div class="stat__label">al Sanatorio San Roque</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">2 deptos</div>
+        <div class="stat__label">completamente equipados</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ SEGMENTOS -->
+<section class="segments" id="segmentos">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">Para vos</span>
+      <h2 class="section-title display">¿Para qué venís a Curuzú?</h2>
+      <p class="section-sub">Cada visita es distinta. Contanos por qué venís y te ayudamos a que la estadía te resulte cómoda.</p>
+    </div>
+
+    <div class="segments__grid">
+
+      <button class="segment-card" data-modal="visita">
+        <div class="segment-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <h3 class="segment-card__title">¿Venís a visitar<br>a tu familia?</h3>
+        <p class="segment-card__desc">
+          Departamentos equipados para que puedas cocinar, recibir visitas y descansar como si fuera tu propia casa, sin apretujar a tus parientes.
+        </p>
+        <span class="segment-card__link">
+          Ver más
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </span>
+      </button>
+
+      <button class="segment-card" data-modal="medico">
+        <div class="segment-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect x="4" y="6" width="16" height="16" rx="2"/><path d="M12 11v6"/><path d="M9 14h6"/></svg>
+        </div>
+        <h3 class="segment-card__title">¿Venís a un tratamiento<br>o estudio médico?</h3>
+        <p class="segment-card__desc">
+          A 4 cuadras del Sanatorio San Roque y a 15 del Centro Oncológico. Un lugar silencioso donde podés descansar entre sesiones o acompañar a alguien.
+        </p>
+        <span class="segment-card__link">
+          Ver más
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </span>
+      </button>
+
+      <button class="segment-card" data-modal="transito">
+        <div class="segment-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m16 3 4 4-4 4"/><path d="M20 7H4"/><path d="m8 21-4-4 4-4"/><path d="M4 17h16"/></svg>
+        </div>
+        <h3 class="segment-card__title">¿Estás cruzando<br>por la Ruta 14?</h3>
+        <p class="segment-card__desc">
+          Parada ideal si viajás hacia Corrientes, Misiones, Paraguay o Brasil. Check-in flexible, buen descanso y salida cómoda al día siguiente.
+        </p>
+        <span class="segment-card__link">
+          Ver más
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ DEPTOS -->
+<section class="deptos" id="departamentos">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">Nuestros espacios</span>
+      <h2 class="section-title display">Dos departamentos,<br><span class="italic">uno para cada plan</span></h2>
+      <p class="section-sub">Ambos completamente equipados. Elegí el que mejor te acomode según cuántos vengan.</p>
+    </div>
+
+    <div class="deptos__grid">
+
+      <!-- Depto 1 -->
+      <div class="depto">
+        <div class="depto__carousel" data-carousel>
+          <div class="depto__slides">
+            <div class="depto__slide"><img src="images/d1-dormitorio.jpg" alt="Dormitorio principal" loading="lazy"></div>
+            <div class="depto__slide"><img src="images/d1-living.jpg" alt="Living con TV" loading="lazy"></div>
+            <div class="depto__slide"><img src="images/d1-comedor.jpg" alt="Comedor" loading="lazy"></div>
+            <div class="depto__slide"><img src="images/d1-cocina.jpg" alt="Cocina equipada" loading="lazy"></div>
+            <div class="depto__slide"><img src="images/d1-bano.jpg" alt="Baño" loading="lazy"></div>
+            <div class="depto__slide"><img src="images/d1-entrada.jpg" alt="Recibidor" loading="lazy"></div>
+          </div>
+          <button class="depto__nav depto__nav--prev" aria-label="Anterior">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <button class="depto__nav depto__nav--next" aria-label="Siguiente">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 6l6 6-6 6"/></svg>
+          </button>
+          <div class="depto__dots"></div>
+        </div>
+        <div class="depto__info">
+          <span class="depto__badge">Depto Premium</span>
+          <h3 class="depto__title">Nuestro clásico</h3>
+          <p class="depto__price">Alojamiento hasta 5 personas · <strong>Descuentos por pago en efectivo y por estadías medias</strong></p>
+          <div class="depto__feats">
+            <span class="depto__feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0114 0M8.5 16a6 6 0 017 0M12 20h.01M2 8.82a15 15 0 0120 0"/></svg>WiFi</span>
+            <span class="depto__feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="10" rx="2"/><path d="M6 12h.01M18 12h.01"/></svg>Aire acondicionado</span>
+            <span class="depto__feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18v18H3zM3 9h18M9 21V9"/></svg>Cocina equipada</span>
+            <span class="depto__feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg>TV</span>
+          </div>
+          <a href="https://wa.me/5491151191329?text=Hola%21%20Quer%C3%ADa%20consultar%20por%20el%20Departamento%201%20%28El%20Cl%C3%A1sico%29%20de%20Buenos%20Ayres%20de%20Curuz%C3%BA" class="depto__cta" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            Consultar este depto
+          </a>
+        </div>
+      </div>
+
+      <!-- Depto 2 -->
+      <div class="depto">
+        <div class="depto__carousel" data-carousel>
+          <div class="depto__slides">
+            <div class="depto__slide"><img src="images/d2-dormitorio.jpg" alt="Dormitorio" loading="lazy"></div>
+            <div class="depto__slide"><img src="images/d2-living.jpg" alt="Living-comedor" loading="lazy"></div>
+            <div class="depto__slide"><img src="images/d2-comedor.jpg" alt="Sillón junto a ventana" loading="lazy"></div>
+            <div class="depto__slide"><img src="images/d2-cocina.jpg" alt="Cocina equipada" loading="lazy"></div>
+            <div class="depto__slide"><img src="images/d2-alacena.jpg" alt="Vajilla y utensilios" loading="lazy"></div>
+            <div class="depto__slide"><img src="images/d2-entrada.jpg" alt="Entrada" loading="lazy"></div>
+          </div>
+          <button class="depto__nav depto__nav--prev" aria-label="Anterior">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <button class="depto__nav depto__nav--next" aria-label="Siguiente">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 6l6 6-6 6"/></svg>
+          </button>
+          <div class="depto__dots"></div>
+        </div>
+        <div class="depto__info">
+          <span class="depto__badge">Depto Premium</span>
+          <h3 class="depto__title">El más nuevo</h3>
+          <p class="depto__price">Alojamiento hasta 5 personas · <strong>Descuentos por pago en efectivo y por estadías medias</strong></p>
+          <div class="depto__feats">
+            <span class="depto__feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0114 0M8.5 16a6 6 0 017 0M12 20h.01M2 8.82a15 15 0 0120 0"/></svg>WiFi</span>
+            <span class="depto__feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="10" rx="2"/><path d="M6 12h.01M18 12h.01"/></svg>Aire acondicionado</span>
+            <span class="depto__feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18v18H3zM3 9h18M9 21V9"/></svg>Cocina equipada</span>
+            <span class="depto__feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg>TV</span>
+          </div>
+          <a href="https://wa.me/5491151191329?text=Hola%21%20Quer%C3%ADa%20consultar%20por%20el%20Departamento%202%20%28El%20m%C3%A1s%20nuevo%29%20de%20Buenos%20Ayres%20de%20Curuz%C3%BA" class="depto__cta" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            Consultar este depto
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="deptos__note">
+      <strong>Reservando por WhatsApp</strong> coordinamos directo con vos y sin intermediarios. También podés reservar por Booking si preferís.
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ UBICACIÓN (SIGNATURE) -->
+<section class="location" id="ubicacion">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">Ubicación</span>
+      <h2 class="section-title display">Todo cerca.<br><span class="italic">Todo a pie.</span></h2>
+      <p class="section-sub">Curuzú Cuatiá es una ciudad que se camina. Desde el departamento llegás sin auto a los puntos importantes.</p>
+    </div>
+
+    <div class="location__grid">
+      <ul class="location__list">
+        <li class="location__item">
+          <div class="location__name">
+            Centro de la ciudad
+            <span class="italic">plaza, bancos, comercios</span>
+          </div>
+          <div class="location__dist">
+            5
+            <small>cuadras · 8 min caminando</small>
+          </div>
+        </li>
+        <li class="location__item">
+          <div class="location__name">
+            Sanatorio San Roque
+            <span class="italic">alta complejidad</span>
+          </div>
+          <div class="location__dist">
+            4
+            <small>cuadras · 5 min caminando</small>
+          </div>
+        </li>
+        <li class="location__item">
+          <div class="location__name">
+            Sanatorio Curuzú
+            <span class="italic">especialidades</span>
+          </div>
+          <div class="location__dist">
+            10
+            <small>cuadras · 12 min caminando</small>
+          </div>
+        </li>
+        <li class="location__item">
+          <div class="location__name">
+            Centro Oncológico
+            <span class="italic">Anna Rocca de Bonatti</span>
+          </div>
+          <div class="location__dist">
+            15
+            <small>cuadras · 18 min caminando</small>
+          </div>
+        </li>
+      </ul>
+
+      <div class="location__map">
+        <iframe
+          src="https://maps.google.com/maps?q=-29.797334,-58.049551&z=16&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Ubicación Buenos Ayres de Curuzú"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ RESEÑAS -->
+<section class="resenas" id="resenas">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">Lo que dicen</span>
+      <h2 class="section-title display">Nuestros huéspedes<br><span class="italic">hablan por nosotros</span></h2>
+      <p class="section-sub">Más de 90 reseñas entre Google y Booking, con un promedio de 4.9 estrellas.</p>
+    </div>
+
+    <div class="resenas__grid">
+
+      <div class="resena">
+        <div class="resena__stars">★★★★★</div>
+        <p class="resena__text">"Muy lindo y confortable el departamento. Todo muy limpio. La atención de Marisol excelente, muy amable y servicial. Super recomendable la estadía."</p>
+        <div class="resena__author">
+          <div class="resena__avatar">S</div>
+          <div>
+            <div class="resena__name">Silvia Gladys Vallejos</div>
+            <div class="resena__meta">Google · Hace 1 mes</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resena">
+        <div class="resena__stars">★★★★★</div>
+        <p class="resena__text">"Excelente atención, el departamento está muy bien ubicado, cerca de todo. Cocina completa, todo impecable. Volvería sin dudarlo."</p>
+        <div class="resena__author">
+          <div class="resena__avatar">M</div>
+          <div>
+            <div class="resena__name">María F.</div>
+            <div class="resena__meta">Booking · Hace 2 meses</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resena">
+        <div class="resena__stars">★★★★★</div>
+        <p class="resena__text">"Vinimos a acompañar a mi papá que se operaba en el San Roque. Muy cómodo, silencioso y a pocos pasos del sanatorio. Marisol nos dio toda la info que necesitábamos."</p>
+        <div class="resena__author">
+          <div class="resena__avatar">R</div>
+          <div>
+            <div class="resena__name">Roberto A.</div>
+            <div class="resena__meta">Google · Hace 3 meses</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="resenas__more">
+      <a href="https://maps.app.goo.gl/95g4VbcAYK8iMDMXA" target="_blank" rel="noopener">
+        Ver todas las reseñas en Google →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ FAQs -->
+<section class="faqs" id="faqs">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">Antes que preguntes</span>
+      <h2 class="section-title display">Preguntas frecuentes</h2>
+    </div>
+
+    <div class="faqs__list">
+
+      <div class="faq">
+        <button class="faq__q">¿Cuánto cuesta la noche?</button>
+        <div class="faq__a"><div class="faq__a-inner">El precio depende de las fechas, cuántos huéspedes vengan y la duración de la estadía. Tenemos descuentos por pago en efectivo y por estadías medias. Escribinos por WhatsApp y te pasamos el valor exacto para tu caso.</div></div>
+      </div>
+
+      <div class="faq">
+        <button class="faq__q">¿A qué distancia están del Sanatorio San Roque?</button>
+        <div class="faq__a"><div class="faq__a-inner">A 4 cuadras. Se llega caminando en 5 minutos por calle plana. Es el sanatorio de mayor complejidad de la zona, con quirófanos, internación y guardia.</div></div>
+      </div>
+
+      <div class="faq">
+        <button class="faq__q">¿Y del Centro Oncológico Anna Rocca de Bonatti?</button>
+        <div class="faq__a"><div class="faq__a-inner">A 15 cuadras (unos 18 minutos caminando, 4 en auto o remis). Muchos huéspedes se hospedan con nosotros mientras hacen tratamientos ambulatorios ahí.</div></div>
+      </div>
+
+      <div class="faq">
+        <button class="faq__q">¿A qué distancia está el centro de Curuzú?</button>
+        <div class="faq__a"><div class="faq__a-inner">A 5 cuadras. Es un paseo tranquilo hasta la plaza principal, comercios, bancos y restaurantes.</div></div>
+      </div>
+
+      <div class="faq">
+        <button class="faq__q">¿Tienen cochera?</button>
+        <div class="faq__a"><div class="faq__a-inner">No tenemos cochera propia. En la calle se puede estacionar sin problema: es una zona muy tranquila donde los huéspedes suelen dejar sus autos afuera sin inconvenientes.</div></div>
+      </div>
+
+      <div class="faq">
+        <button class="faq__q">¿Cuántas personas pueden hospedarse?</button>
+        <div class="faq__a"><div class="faq__a-inner">Cada departamento aloja hasta 5 personas. Contamos con dos departamentos, así que podemos recibir grupos más grandes que vengan juntos (familias, delegaciones, etc.).</div></div>
+      </div>
+
+      <div class="faq">
+        <button class="faq__q">¿Cómo son los horarios de check-in y check-out?</button>
+        <div class="faq__a"><div class="faq__a-inner">Check-in a partir de las 15:00, check-out hasta las 10:00. Somos flexibles según disponibilidad, especialmente para quienes vienen por turnos médicos. Consultanos y coordinamos.</div></div>
+      </div>
+
+      <div class="faq">
+        <button class="faq__q">¿Se puede cocinar en el departamento?</button>
+        <div class="faq__a"><div class="faq__a-inner">Sí. Ambos deptos tienen cocina completa con horno, hornallas, heladera, microondas, vajilla, ollas y utensilios. Podés hacer tu comida sin problema.</div></div>
+      </div>
+
+      <div class="faq">
+        <button class="faq__q">¿Están cerca de la Ruta 14?</button>
+        <div class="faq__a"><div class="faq__a-inner">Sí, a pocos minutos del acceso. Es una parada natural para viajes hacia Corrientes, Misiones, Paraguay o Brasil.</div></div>
+      </div>
+
+      <div class="faq">
+        <button class="faq__q">¿Cómo reservo?</button>
+        <div class="faq__a"><div class="faq__a-inner">Por WhatsApp coordinamos directo con vos, sin intermediarios. También podés reservar por Booking si preferís.</div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ CTA FINAL -->
+<section class="cta-final">
+  <div class="container">
+    <h2 class="cta-final__title display">¿Confirmamos<br><span class="italic">tu estadía?</span></h2>
+    <p class="cta-final__sub">Escribinos por WhatsApp y te respondemos con disponibilidad y precio en el momento.</p>
+    <div class="cta-final__ctas">
+      <a href="https://wa.me/5491151191329?text=Hola!%20Quer%C3%ADa%20consultar%20por%20una%20estad%C3%ADa%20en%20Buenos%20Ayres%20de%20Curuz%C3%BA" class="btn btn--primary" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        Escribir por WhatsApp
+      </a>
+      <a href="https://www.booking.com/hotel/ar/buenos-ayres-de-curuzu.es.html" class="btn btn--ghost" target="_blank" rel="noopener">
+        Ir a Booking
+      </a>
+    </div>
+    <div class="cta-final__contact">
+      <a href="tel:+541151191329">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+        011 5119-1329
+      </a>
+      <a href="https://maps.app.goo.gl/95g4VbcAYK8iMDMXA" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Sarratea 416, Curuzú Cuatiá
+      </a>
+      <a href="https://instagram.com/buenosayresdecuruzu" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zM17.5 6.5h.01"/></svg>
+        @buenosayresdecuruzu
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ FOOTER -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div>© 2026 Buenos Ayres de Curuzú · Curuzú Cuatiá, Corrientes</div>
+    <div class="footer__links">
+      <a href="#departamentos">Departamentos</a>
+      <a href="#ubicacion">Ubicación</a>
+      <a href="#faqs">Preguntas</a>
+      <a href="https://instagram.com/buenosayresdecuruzu" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================ WhatsApp flotante -->
+<a href="https://wa.me/5491151191329?text=Hola!%20Quer%C3%ADa%20consultar%20por%20una%20estad%C3%ADa%20en%20Buenos%20Ayres%20de%20Curuz%C3%BA" class="wa-float" target="_blank" rel="noopener" aria-label="Consultar por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<!-- ============================================================ MODALES -->
+<div class="modal" id="modal-visita">
+  <div class="modal__box">
+    <button class="modal__close" data-close>×</button>
+    <div class="modal__icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+    </div>
+    <h3 class="modal__title">¿Venís a visitar a tu familia?</h3>
+    <div class="modal__body">
+      <p>Sabemos que quedarse con parientes muchas veces significa apretujar espacios, dormir en un sillón, o incomodar al otro. Nuestros departamentos son el equilibrio: estás en Curuzú con tu gente pero tenés tu propio lugar para descansar bien.</p>
+    </div>
+    <ul class="modal__list">
+      <li>Cocina completa con todo lo necesario para preparar tus comidas</li>
+      <li>Living amplio para recibir familia si querés hacer una comida en el depto</li>
+      <li>WiFi estable y TV para relajarse a la noche</li>
+      <li>A 5 cuadras del centro, en una zona muy tranquila</li>
+      <li>Barrio tranquilo, seguro para caminar de noche</li>
+      <li>Marisol te recibe personalmente y te orienta con todo lo que necesites</li>
+    </ul>
+    <a href="https://wa.me/5491151191329?text=Hola!%20Vengo%20a%20visitar%20familia%20en%20Curuz%C3%BA%20y%20quer%C3%ADa%20consultar%20disponibilidad" class="modal__cta" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      Consultar disponibilidad
+    </a>
+  </div>
+</div>
+
+<div class="modal" id="modal-medico">
+  <div class="modal__box">
+    <button class="modal__close" data-close>×</button>
+    <div class="modal__icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect x="4" y="6" width="16" height="16" rx="2"/><path d="M12 11v6"/><path d="M9 14h6"/></svg>
+    </div>
+    <h3 class="modal__title">¿Venís a un tratamiento o estudio médico?</h3>
+    <div class="modal__body">
+      <p>Entendemos que no venís de vacaciones. Vas al médico, acompañás a alguien, o estás en tratamiento. Nuestro trabajo es que la parte del alojamiento no te sume estrés.</p>
+    </div>
+    <ul class="modal__list">
+      <li>A 4 cuadras del Sanatorio San Roque, 10 del Sanatorio Curuzú, 15 del Centro Oncológico</li>
+      <li>Departamentos silenciosos, ideales para descansar entre sesiones o después de un estudio</li>
+      <li>Cocina equipada por si necesitás preparar dietas específicas</li>
+      <li>Flexibilidad en horarios de check-in y check-out según tus turnos</li>
+      <li>Habitaciones cómodas para vos y tu acompañante</li>
+      <li>Zona muy tranquila, sin ruido</li>
+    </ul>
+    <a href="https://wa.me/5491151191329?text=Hola!%20Vengo%20por%20un%20tratamiento%20m%C3%A9dico%20a%20Curuz%C3%BA%20y%20quer%C3%ADa%20consultar%20disponibilidad" class="modal__cta" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      Consultar disponibilidad
+    </a>
+  </div>
+</div>
+
+<div class="modal" id="modal-transito">
+  <div class="modal__box">
+    <button class="modal__close" data-close>×</button>
+    <div class="modal__icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m16 3 4 4-4 4"/><path d="M20 7H4"/><path d="m8 21-4-4 4-4"/><path d="M4 17h16"/></svg>
+    </div>
+    <h3 class="modal__title">¿Estás cruzando por la Ruta 14?</h3>
+    <div class="modal__body">
+      <p>Curuzú Cuatiá es la mitad del camino para muchos viajes largos. Nuestros deptos son la parada ideal para partir el viaje sin gastar en hotel de ruta.</p>
+    </div>
+    <ul class="modal__list">
+      <li>A pocos minutos del acceso a la Ruta 14</li>
+      <li>Check-in flexible: si llegás tarde, coordinamos</li>
+      <li>Cocina completa para cenar sin salir a buscar restaurante</li>
+      <li>Buen descanso, cama cómoda y AC para arrancar bien al otro día</li>
+      <li>Estacionamiento en la calle (zona muy tranquila)</li>
+      <li>Alojamiento hasta 5 personas, ideal para familias que viajan juntas</li>
+    </ul>
+    <a href="https://wa.me/5491151191329?text=Hola!%20Estoy%20de%20paso%20por%20Curuz%C3%BA%20y%20quer%C3%ADa%20consultar%20disponibilidad" class="modal__cta" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      Consultar disponibilidad
+    </a>
+  </div>
+</div>
+
+<!-- ============================================================ SCRIPTS -->
+<script>
+// ============ Modales ============
+document.querySelectorAll('[data-modal]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const id = btn.getAttribute('data-modal');
+    document.getElementById('modal-' + id)?.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  });
+});
+document.querySelectorAll('[data-close]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    btn.closest('.modal').classList.remove('open');
+    document.body.style.overflow = '';
+  });
+});
+document.querySelectorAll('.modal').forEach(m => {
+  m.addEventListener('click', (e) => {
+    if (e.target === m) {
+      m.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+  });
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    document.querySelectorAll('.modal.open').forEach(m => m.classList.remove('open'));
+    document.body.style.overflow = '';
+  }
+});
+
+// ============ Carruseles de departamentos ============
+document.querySelectorAll('[data-carousel]').forEach(carousel => {
+  const slides = carousel.querySelector('.depto__slides');
+  const slideEls = carousel.querySelectorAll('.depto__slide');
+  const prevBtn = carousel.querySelector('.depto__nav--prev');
+  const nextBtn = carousel.querySelector('.depto__nav--next');
+  const dotsContainer = carousel.querySelector('.depto__dots');
+  let current = 0;
+  const total = slideEls.length;
+
+  // Crear dots
+  for (let i = 0; i < total; i++) {
+    const dot = document.createElement('button');
+    dot.className = 'depto__dot' + (i === 0 ? ' active' : '');
+    dot.setAttribute('aria-label', `Ir a foto ${i+1}`);
+    dot.addEventListener('click', () => goTo(i));
+    dotsContainer.appendChild(dot);
+  }
+  const dots = dotsContainer.querySelectorAll('.depto__dot');
+
+  function goTo(idx) {
+    current = (idx + total) % total;
+    slides.style.transform = `translateX(-${current * 100}%)`;
+    dots.forEach((d, i) => d.classList.toggle('active', i === current));
+  }
+
+  prevBtn?.addEventListener('click', () => goTo(current - 1));
+  nextBtn?.addEventListener('click', () => goTo(current + 1));
+
+  // Swipe touch básico
+  let startX = 0;
+  carousel.addEventListener('touchstart', e => startX = e.touches[0].clientX, {passive: true});
+  carousel.addEventListener('touchend', e => {
+    const diff = startX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 40) goTo(current + (diff > 0 ? 1 : -1));
+  }, {passive: true});
+});
+
+// ============ FAQs ============
+document.querySelectorAll('.faq__q').forEach(q => {
+  q.addEventListener('click', () => {
+    const faq = q.closest('.faq');
+    const answer = faq.querySelector('.faq__a');
+    const isOpen = faq.classList.contains('open');
+    // Cerrar los demás
+    document.querySelectorAll('.faq.open').forEach(f => {
+      f.classList.remove('open');
+      f.querySelector('.faq__a').style.maxHeight = '0';
+    });
+    if (!isOpen) {
+      faq.classList.add('open');
+      answer.style.maxHeight = answer.scrollHeight + 'px';
+    }
+  });
+});
+
+// ============ Nav shadow al scrollear ============
+const nav = document.querySelector('.nav');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 40) {
+    nav.style.boxShadow = '0 4px 20px rgba(1,52,107,.08)';
+  } else {
+    nav.style.boxShadow = 'none';
+  }
+});
+</script>
+
+</body>
+</html>
